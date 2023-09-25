@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Inter:wght@300&family=Libre+Baskerville:ital@0;1&family=Poppins&family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #898D9A;
+}
+body{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Inter', sans-serif;
+    
+}
+/* FIRST COMPLETE DIV */
+.main{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+/* FOR BUTTON AND ADDRESS */
+.mail{
+   
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+img{
+    width: 18px;
+}
+
+
+.contact{
+    
+    width: 168px;
+    height: 42.4px;
+    border-radius: 5px;
+    background-color: #111317;
+    color: #898D9A;
+    font-weight: bold;
+    border: 1px solid #898d9a;
+
+}
+.address{
+    margin-top: 12px;
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+}
+
+.one{
+    background-color: #111317;
+    height: 80vh;
+    margin-top: 10%;
+}
+
+.greenbutton{
+background-color: #009F81;
+width: 338px;
+height: 42.4px;
+color: white;
+border: 1px solid #009F81;
+font-size:16px;
+border-radius: 5px;
+}
+.pricing{
+    text-align: center;
+    line-height: 40.5px;
+    font-size: 12px;
+    font-weight:900;
+}
+.green{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.mainparentdiv{
+display: flex;
+justify-content: center;
+}
+
+.parentdiv{
+    display: flex;
+    justify-content: space-around;
+    line-height: 25px;
+    font-size: 12px;
+    width: 1270px;
+}
+.headline{
+    color: white;
+    font-weight: bold;
+    
+}
+.texts1{
+    font-weight: 800;
+}
+
+.down{
+     width: 100%;
+    margin-top: 15px;
+    display: block ;
+    align-items: center;
+}
